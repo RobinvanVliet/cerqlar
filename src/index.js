@@ -3,6 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import * as contentful from 'contentful'
+
+var client = contentful.createClient({
+  space: '6crtow6zrlg4',
+  accessToken: 'gHfWDqxnahOfTLEwNPpywurZWl0gGxtk2fdm-ypz4vo',
+  host: "preview.contentful.com"})
+client.getEntries().then(entries => {
+  entries.items.forEach(entry => {
+    if(entry.fields) {
+      console.log(entry.fields)
+    }
+  })
+})
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -10,6 +23,8 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

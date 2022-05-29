@@ -1,0 +1,20 @@
+.ArrowUp{
+  background-color: red;
+  display: inline-block;
+  height: 1.3rem;
+  fill: rgb(255, 255, 255);
+  line-height: 1;
+}
+
+.ArrowDown{
+  background-color: blue;
+  display: inline-block;
+  height: 1.3rem;
+  fill: rgb(255, 255, 255);
+  line-height: 1;
+}
+
+.ArrowUp:hover{
+   background-color: green;
+   fill: black;
+}

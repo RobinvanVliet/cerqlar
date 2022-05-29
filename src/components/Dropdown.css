@@ -1,0 +1,62 @@
+.service-submenu{
+  /* position: absolute;
+  top: 67px; */
+  /* list-style: none; 
+  text-align: start;
+  padding: 0px; */
+
+  position: absolute;
+  top: 4.6rem;
+  border-radius: 0.6rem;
+  background: rgba(255, 255, 255, 0.92);
+  padding: 1rem;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  box-shadow: rgb(62 78 134 / 10%) 0px 15px 80px;
+  /* z-index: 2; */
+  list-style-type: none;
+}
+
+.service-submenu li{
+  /* background: rgba(255, 255, 255, 0.92); */
+  cursor: pointer;
+  list-style: none;
+}
+
+.service-submenu.clicked{
+  display: none;
+}
+
+.submenu-item{
+  display: block;
+  padding: 0px;
+  text-align: left;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.63;
+  color: rgb(40, 38, 41) !important;
+
+}
+
+.submenu-item a{
+  font-family: "TT Interfaces" !important;
+}
+
+.dropdown-text{
+  border: none;
+  padding: 1.2rem;
+}
+
+.test{
+  width: 10rem;
+  position: absolute;
+  top: 60px;
+  list-style: none;
+  text-align: start;
+}
+
+.test li{
+  background: red;
+ 
+}

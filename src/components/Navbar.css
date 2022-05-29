@@ -1,0 +1,81 @@
+.background{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 3;
+  /* position: relative; */
+  height: 12.8rem;
+}
+
+.orb{
+  animation: 45s linear 0s infinite normal forwards running spin;
+  left: 0;
+  z-index: 0;
+  position: absolute;
+}
+
+.navbar{
+  /* color: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%; */
+}
+
+
+.container{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  padding-right: 80px;
+  /* font-family: "NeueHaas"; */
+  /* padding: 16.5rem 0px 7.5rem; */
+}
+
+.navbar-logo{
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10rem;
+  padding-left: 50px;
+}
+
+.nav-items{
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  /* background-color: pink; */
+  /* font-family: "NeueHaas"; */
+  width: 100%;
+}
+
+.nav-item{
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  padding: 12px;
+}
+
+.nav-item > a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  margin-right: 2rem;
+  font-family: "NeueHaas";
+}
+
+.logoContainer{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+@keyframes spin {
+  to {transform:rotate(360deg);}
+}

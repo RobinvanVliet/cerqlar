@@ -1,0 +1,21 @@
+.p__title{
+  margin: 0px;
+}
+
+.p__content{
+  margin: 0px;
+}
+
+.arrow{
+  transition: all 0.3s cubic-bezier(0.45, 0, 0.55, 1) 0s;
+  height: 16px;
+  display: flex;
+  transform: rotate(90deg);
+}
+
+.tradesCaptures{
+  display: flex;
+  width: 100%;
+  height: auto;
+  border-radius: 0.6rem; 
+}

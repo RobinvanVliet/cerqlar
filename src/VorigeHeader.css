@@ -1,0 +1,160 @@
+.header{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 3;
+}
+.headerInner__Container{
+    background: transparent;
+    height: 12.8rem;
+}
+.container{
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 100%;
+    margin: 0px auto;
+    max-width: 1500px;
+    background-color: blue;
+}
+.style__A{
+    text-decoration: none;
+}
+.logo__Container{
+    width: 15.6rem;
+}
+.imageContainer__Container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 0.6rem;
+}
+.style__Container{
+    padding: 0px;
+    width: auto;
+    margin: 0px 0px 0px auto;
+    z-index: 2;
+    display: flex;
+    position: relative;
+    max-width: 1500px;
+}
+.nav__Button{
+    border: none;
+    background:transparent;
+    cursor: pointer;    
+}
+
+.header__span{
+    size: 3.2em;
+    fill: rgb(255, 255, 255);
+}
+
+.header__navContainer{
+    display: flex;
+    position: relative;
+}
+
+.style__Container{
+    padding: 0px;
+    width: auto;
+    margin: 0px 0px 0px auto;
+    z-index: 2;
+
+    display: flex;
+position: relative;
+padding: 0px;
+width: auto;
+margin: 0px 0px 0px auto;
+z-index: 2;
+max-width: 1500px;
+height: 50px;
+}
+
+.style__StyledNavListItemLi{
+    list-style-type: none; 
+    display: flex;
+-webkit-box-align: center;
+align-items: center;
+width: auto;
+list-style-type: none;
+}
+
+.imoNsg{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: auto;  
+}
+.style__StyledNavItemButton{
+    background: none;
+    border: none;
+    text-align: unset;
+}
+
+.iWogSF{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 1.2rem;
+}
+
+.iKbOGQ{
+    color: rgb(255, 255, 255); 
+}
+
+.gzGplq{
+    font-family: "Neue Haas Grotesk", Verdana, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.63;
+}
+
+.iRlbLq{
+    display: inline-block;
+    height: 1.6rem;
+    fill: rgb(255, 255, 255);
+    line-height: 1;
+}
+
+.iRlblq svg{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.hxSdNL{
+    margin-left: 1rem;
+    position: relative;  
+}
+
+.hxSdNL::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.kRUtAn{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 1.2rem;
+    border-radius: 0.6rem;
+}
+
+
+/* .fvxRIQ{
+    margin-left: 3.2rem;
+} */

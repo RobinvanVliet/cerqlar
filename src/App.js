@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+
+import React from 'react';
+import { createClient } from 'contentful';
 import './App.css';
+import Header from './Header';
+import Main from './Main';
+import Navbar from './components/Navbar';
+import {BrowserRouter as Router} from 'react-router-dom';
+import IntroBlock from './components/IntroBlock';
+import {BrowserRouter, Route, Link} from 'react-router-dom'
+import Test from './testenContenful/Test100';
+import Trades from './contentBlocks/Trades';
+import Homepage from './contentBlocks/Homepage';
+import Solution from './contentBlocks/Solution';
+import Solution2 from './contentBlocks/Solution2';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends React.PureComponent {
+  render() {
+    return (
+      <Router>
+        <header className='header'>
+          {/* <Navbar/> */}
+        </header>
+        <main className='main'>
+          {/* <IntroBlock/> */}
+        </main>
+        {/* <Test/> */}
+        {/* <Trades/>  */}
+        {/* <Homepage/> */}
+       <Solution2/>
+      </Router>
+    );
+  }
 }
-
-export default App;
