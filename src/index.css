@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "NeueHaas";
+  src: local("NeueHaas"),
+   url("./fonts/NeueHaas/NeueHaasDisplayRoman.ttf") format("truetype");
+  font-weight: regular;
+  }
+
+@font-face {
+  font-family: "TT Interfaces";
+  src: local("TT Interfaces"),
+   url("./fonts/TTInterfaces/FontsFree-Net-TTInterfaces-Regular.ttf") format("truetype");
+  font-weight: regular;
+  }
+
+@font-face {
+  font-family: "TT Interfaces";
+  src: local("TT Interfaces"),
+    url('./fonts/TTInterfaces/tt-interfaces-demibold.ttf') format("truetype");
+  font-weight: bold;
+  }

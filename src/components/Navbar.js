@@ -27,7 +27,11 @@ function Navbar() {
                   return (
                     <li key={item.id} className={item.cName}
                         onMouseEnter={() => setDropdown(true)} 
+
+                        onMouseLeave={() => setDropdown(false)}>
+
                         onMouseLeave={() => setDropdown(true)}>
+
                       <Link 
                         to={item.path} 
                         >
@@ -66,6 +70,13 @@ const NavBar = styled.div`
   align-items: center;
   position: absolute;
   width: 100%;  
+`;
+
+
+const Text = styled.div`
+  color: white;
+  background-color: red;
+ position: absolute;
 `;
 
 export default Navbar;
