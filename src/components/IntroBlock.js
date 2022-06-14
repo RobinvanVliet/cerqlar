@@ -3,7 +3,10 @@ import './IntroBlock.css';
 import orb from './background.webp';
 import styled from 'styled-components';
 import { COLOR } from '../theme/basics/colors';
+
 import transparent from '../img/transparant.webp';
+
+
 
 function IntroBlock(){
   return(
@@ -14,6 +17,7 @@ function IntroBlock(){
         <img className='orb' src={orb} alt='Logo' loading='lazy'></img>
       </Orb>
    </OrbContainer>
+
       <Row>
         <StyledColumn>
         <Text>Solution overview</Text>
@@ -22,6 +26,7 @@ function IntroBlock(){
         <Text><img className='logoContainer' src={transparent} alt='Logo' loading='lazy'></img></Text>
         </StyledColumn>
       </Row>
+
     </IntroBlockContainer>
     </>
   )
@@ -52,6 +57,7 @@ const Orb = styled.div`
   width: 0px;
   height: 0px;
 `;
+
 
 const Row = styled.div`
   -webkit-box-align: center;

@@ -21,9 +21,15 @@ export const navItems = [
 
 export const serviceDropdown = [
 
+
   {
     title: "Overview",
     path: "./pages/overview",
+
+  {
+    title: "Overview",
+    path: "./overview",
+
     cName: "submenu-item",
   },
   {
