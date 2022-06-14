@@ -142,7 +142,6 @@ const StyledHeader = styled.div`
 
 const Button = styled.button`
   cursor: pointer;
-  // background-color: transparent;
   border: none;
   width: 100%;
   text-align: left;
